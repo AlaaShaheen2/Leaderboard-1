@@ -35,4 +35,3 @@ submit.addEventListener('click', (e) => {
 refresh.addEventListener('click', () => {
   window.location.reload();
 });
-

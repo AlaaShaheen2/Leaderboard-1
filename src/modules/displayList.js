@@ -1,4 +1,4 @@
-import id from './gameID';
+import id from './gameID.js';
 
 const postUrl = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games';
 
@@ -13,7 +13,7 @@ class displayList {
   };
 
   static render(data) {
-    const scoresBoard = document.querySelector('.scores-board')
+    const scoresBoard = document.querySelector('.scores-board');
     const scoreInfo = document.createElement('li');
     scoreInfo.innerHTML = `
       <p>${data.user}</p>
