@@ -20,9 +20,11 @@ body {
 }
 
 .title {
-  font-size: 54px;
+  font-size: 84px;
   margin-bottom: 30px;
   text-align: center;
+  color: #ffffff;
+  font-weight: 700;
 }
 
 .board-wrapper {
@@ -41,26 +43,43 @@ body {
   display: flex;
   padding: 10px 5px;
   justify-content: space-between;
+  color: #fff;
+  font-weight: 700;
+  font-size: 22px;
 }
 
 .refresh {
   padding: 5px;
-  border: 2px solid black;
+  border: 2px solid #fff;
+  border-radius: 3px;
+  background-color: #939382;
+  color: #fff;
+  font-weight: 700;
 }
 
 .scores-board {
   padding-left: 0;
-  border: 2px solid black;
+  border: 2px solid #fff;
+  border-bottom: 0;
+  border-radius: 3px;
 }
 
 .scores-board li {
   list-style: none;
   padding: 5px;
   display: flex;
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
+  border-bottom: 2px solid #fff;
 }
 
 .scores-board li:nth-child(odd) {
-  background-color: #d3d3d3;
+  background-color: #939382;
+}
+
+.scores-board li:nth-child(even) {
+  background-color: #131313;
 }
 
 /* Add section */
@@ -75,6 +94,8 @@ body {
   padding: 10px 5px;
   margin-bottom: 20px;
   text-align: center;
+  color: #fff;
+  font-weight: 700;
 }
 
 .add-name,
@@ -83,7 +104,10 @@ body {
   margin-bottom: 20px;
   margin-left: 5px;
   margin-right: 5px;
-  border: 2px solid black;
+  border: 2px solid #fff;
+  background-color: #fff;
+  color: #131313;
+  border-radius: 3px;
 }
 
 .submit-box {
@@ -94,5 +118,9 @@ body {
 
 .submit {
   padding: 5px;
-  border: 2px solid black;
+  border: 2px solid #fff;
+  border-radius: 3px;
+  background-color: #939382;
+  color: #fff;
+  font-weight: 700;
 }
