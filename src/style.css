@@ -15,7 +15,7 @@ body {
 
 .body-wrapper {
   padding: 30px 20px;
-  background-image: url(../img/background.svg);
+  background-image: url("../img/background.svg");
   min-height: 100vh;
 }
 
@@ -23,7 +23,7 @@ body {
   font-size: 84px;
   margin-bottom: 30px;
   text-align: center;
-  color: #ffffff;
+  color: #fff;
   font-weight: 700;
 }
 
