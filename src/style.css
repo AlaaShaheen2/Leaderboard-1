@@ -15,6 +15,8 @@ body {
 
 .body-wrapper {
   padding: 30px 20px;
+  background-image: url(../img/background.svg);
+  min-height: 100vh;
 }
 
 .title {
@@ -54,6 +56,7 @@ body {
 .scores-board li {
   list-style: none;
   padding: 5px;
+  display: flex;
 }
 
 .scores-board li:nth-child(odd) {

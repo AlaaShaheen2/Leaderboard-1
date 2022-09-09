@@ -17,7 +17,7 @@ class displayList {
     const scoreInfo = document.createElement('li');
     scoreInfo.innerHTML = `
       <p>${data.user}</p>
-      <p>${data.score}</p>
+      <p>: ${data.score}</p>
       `;
 
     scoresBoard.appendChild(scoreInfo);
