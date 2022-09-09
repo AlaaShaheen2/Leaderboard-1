@@ -1,3 +1,92 @@
-.hello {
-  color: green;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+}
+
+.body-wrapper {
+  padding: 30px 20px;
+}
+
+.title {
+  font-size: 54px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.board-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+/* Score section */
+
+.scores-section {
+  margin-right: 40px;
+  width: 300px;
+  height: fit-content;
+}
+
+.scores-header {
+  display: flex;
+  padding: 10px 5px;
+  justify-content: space-between;
+}
+
+.refresh {
+  padding: 5px;
+  border: 2px solid black;
+}
+
+.scores-board {
+  padding-left: 0;
+  border: 2px solid black;
+}
+
+.scores-board li {
+  list-style: none;
+  padding: 5px;
+}
+
+.scores-board li:nth-child(odd) {
+  background-color: #d3d3d3;
+}
+
+/* Add section */
+
+.add-section {
+  display: flex;
+  flex-direction: column;
+  width: 220px;
+}
+
+.add-header-text {
+  padding: 10px 5px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.add-name,
+.add-score {
+  padding: 5px 3px;
+  margin-bottom: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border: 2px solid black;
+}
+
+.submit-box {
+  display: flex;
+  justify-content: end;
+  margin-right: 5px;
+}
+
+.submit {
+  padding: 5px;
+  border: 2px solid black;
 }
